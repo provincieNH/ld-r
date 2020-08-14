@@ -16,3 +16,8 @@ uploaded/*.csv
 uploaded/*.txt
 uploaded/*.tsv
 uploaded/*.json
+.idea/ld-r.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
+.idea/inspectionProfiles/profiles_settings.xml
