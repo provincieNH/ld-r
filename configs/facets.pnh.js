@@ -27,6 +27,26 @@ export default {
                 }
             }
         },
+        'otl': {
+            list: [
+                'http://otl.noord-holland.nl/def/areaaldata/objecttype/isBGT_Object',
+                'http://www.w3.org/2000/01/rdf-schema#subClassOf','http://otl.noord-holland.nl/def/areaaldata/objecttype/herkomstDefinitie'
+            ],
+            config: {
+                // 'http://otl.noord-holland.nl/def/areaaldata/objecttype/herkomstDefinitie':{
+                //     bjectBrowser: ['TagListBrowser'],
+                //     position: 2
+                // },
+                // 'http://purl.org/dc/terms/accessRights':{
+                //     objectBrowser: ['TagListBrowser'],
+                //     position: 1
+                // },
+                // 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type':{
+                //     shortenURI: 1,
+                //     position: 1
+                //}
+            }
+        },
         //Configuration Manager: change the graph name if you use another name in your general.js config
         'http://ld-r.org/configurations': {
             list: [

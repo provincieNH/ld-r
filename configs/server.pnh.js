@@ -15,6 +15,10 @@ export default {
         'datacatalogus': {
             host: '10.0.0.127', port: 7200, path: '/repositories/datacatalogus', graphName: 'http://ld.noord-holland.nl/catalogus/', endpointType: 'graphdb'
         },
+        //GraphDB triple store OTL
+        'otl': {
+            host: '10.0.0.127', port: 7200, path: '/repositories/otl', graphName: 'http://otl.noord-holland.nl/def/areaaldata/objecttype/', endpointType: 'graphdb'
+        }
     },
     dbpediaLookupService: [
         { host: 'lookup.dbpedia.org' }

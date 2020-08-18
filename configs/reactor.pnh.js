@@ -22,6 +22,15 @@ export default {
                 datasetReactor: ['Dataset'],
                 datasetViewer: ['BasicResourceList']
             },
+            'otl': {
+                resourceFocusType: ['http://www.w3.org/2002/07/owl#Class'],
+                //only allow to view data -> disable edit
+                readOnly: 1,
+                //used for pagination in resource list
+                maxNumberOfResourcesOnPage: 20,
+                datasetReactor: ['Dataset'],
+                datasetViewer: ['BasicResourceList']
+            },
             //authentication graph
             'http://ld-r.org/users': {
                 readOnly: 0,
