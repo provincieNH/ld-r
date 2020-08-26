@@ -35,9 +35,9 @@ export default {
     enableDynamicFacetsConfiguration: 0,
     //if set, wil allow users to create new datasets
     //only works if enableDynamicReactorConfiguration is set to 1 and triple store allows update qureies
-    enableAddingNewDatasets: 1,
+    enableAddingNewDatasets: 0,
     //allows users to annotate datasets using NLP APIs
-    enableDatasetAnnotation: 1,
+    enableDatasetAnnotation: 0,
     //allows users to save and import a SPARQL query from/to the system: WYSIWYQ concept
     enableQuerySaveImport: 1,
     //graph that stores your configurations

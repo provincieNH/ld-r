@@ -5,7 +5,7 @@ export default {
     sparqlEndpoint: {
         // config in generic
         'generic': {
-            host: '10.0.0.127', port: 7200, path: '/repositories/ld-r-config', graphName: 'http://ld-r.org/users', endpointType: 'graphdb'
+            host: '10.0.0.127', port: 7200, path: '/repositories/ld-r-config', endpointType: 'graphdb'
         },
         //DBPedia example dataset
         'http://dbpedia.org/sparql': {
@@ -15,6 +15,9 @@ export default {
         'datacatalogus': {
             host: '10.0.0.127', port: 7200, path: '/repositories/datacatalogus', graphName: 'http://ld.noord-holland.nl/catalogus/', endpointType: 'graphdb'
         },
+        'satellietbeelden': {
+            host: '10.0.0.127', port: 7200, path: '/repositories/datacatalogus', graphName: 'http://ld.noord-holland.nl/catalogus/satelliet', endpointType: 'graphdb'
+         },
         //GraphDB triple store OTL
         'otl': {
             host: '10.0.0.127', port: 7200, path: '/repositories/otl', graphName: 'http://otl.noord-holland.nl/def/areaaldata/objecttype/', endpointType: 'graphdb'

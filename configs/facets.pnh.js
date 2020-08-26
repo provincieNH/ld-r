@@ -27,6 +27,42 @@ export default {
                 }
             }
         },
+        'datacatalogus': {
+            list: [
+                'http://www.w3.org/ns/dcat#keyword','http://purl.org/dc/terms/accessRights', 'http://purl.org/dc/terms/creator','http://www.w3.org/1999/02/22-rdf-syntax-ns#type'
+            ],
+            config: {
+                'http://www.w3.org/ns/dcat#keyword':{
+                    objectBrowser: ['TagListBrowser'],
+                    position: 2
+                },
+                'http://purl.org/dc/terms/accessRights':{
+                    objectBrowser: ['TagListBrowser'],
+                    position: 1
+                },
+                'http://purl.org/dc/terms/creator':{
+                    shortenURI: 0,
+                    position: 3
+                }
+            }
+        },
+        'satellietbeelden': {
+            list: [
+                'http://www.w3.org/ns/dcat#theme', 'http://www.w3.org/ns/dcat#SpatialResolutionInMeters', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type'
+            ],
+            config: {
+                'http://www.w3.org/ns/dcat#theme':{
+                    objectBrowser: ['TagListBrowser'],
+                    position: 1
+                },
+                'http://www.w3.org/ns/dcat#SpatialResolutionInMeters':{
+                    position: 2,
+                    allowRangeOfValues: 1,
+                    label: ['resolutie'],
+                    dataType: ['xsd:decimal']
+                }
+            }
+        },
         'otl': {
             list: [
                 'http://otl.noord-holland.nl/def/areaaldata/objecttype/isBGT_Object',
